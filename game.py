@@ -49,16 +49,16 @@ class Healer(Character):
         
 
 # --- Characters Setup ---
-nawaf = Warrior("Nawaf")
-mujtaba = Warrior("Mujtaba")
-abdulrahman = Character("Abdulrahman", health=100, level=4)
-fadhel = Healer("Fadhel")
+darkNight_123 = Warrior("darkNight_123")
+the_samboosaMan = Warrior("the_samboosaMan")
+hmany_313 = Character("hmany_313", health=100, level=4)
+f_thekiller_911 = Healer("Fadhel")
 
 
 print("--- ⚔️ Battle Begins! ---")
-nawaf.attack(abdulrahman)
-mujtaba.attack(abdulrahman)
-fadhel.heal(abdulrahman)
-mujtaba.attack(fadhel)
-fadhel.heal(fadhel)
+darkNight_123.attack(hmany_313)
+the_samboosaMan.attack(hmany_313)
+f_thekiller_911.heal(hmany_313)
+the_samboosaMan.attack(f_thekiller_911)
+f_thekiller_911.heal(f_thekiller_911)
 Warrior.listWarriors()
